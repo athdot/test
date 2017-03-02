@@ -1,3 +1,2 @@
-<script>
 document.write("Hi")
-</script>
+alert("Wazzap!")
