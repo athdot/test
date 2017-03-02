@@ -1,3 +1,2 @@
-var myP = "Herro"
-myP.style.fontSize = "xx-large"
-document.write(myP).bold()
+var worth = ("Herro")
+document.write(worth.fontsize(7).bold().fontcolor("lightgreen"))
