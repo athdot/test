@@ -1,4 +1,2 @@
 var myP = "Herro"
-document.getElementById("myP").style.fontSize = "xx-large";
-document.getElementById("myP").bold()
-document.getElementById("myP").fontcolor("green")
+document.write(((myP.bold()).fontcolor("green")).style.fontSize = "xx-large")
