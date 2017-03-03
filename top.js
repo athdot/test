@@ -1,2 +1,8 @@
-var worth = ("Herro")
-document.write(worth.fontsize(7).bold().fontcolor("lightgreen"))
+chrome.app.runtime.onLaunched.addListener(function() {
+  chrome.app.window.create('window.html', {
+    'outerBounds': {
+      'width': 400,
+      'height': 500
+    }
+  });
+});
