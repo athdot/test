@@ -3,5 +3,5 @@
         var scwid = (screen.width)*(78.8/80)
         ifrm.style.width = (scwid + "px");
         ifrm.style.height = "100px";
-        ifrm.style.frameBorder = "0";
+        ifrm.setAttribute("frameBorder = "0";)
         document.body.appendChild(ifrm);
