@@ -1,8 +1,5 @@
-chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('/test/window.html', {
-    'outerBounds': {
-      'width': 400,
-      'height': 500
-    }
-  });
-});
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "https://athdot.github.io/test/window.html");
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        document.body.appendChild(ifrm);
